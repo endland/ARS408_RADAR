@@ -22,9 +22,11 @@ $ cd CAN_recording
 $ canplayer -I candump.log -l i
 ```
 
-Launch Radar node
+Launch Radar node, configure and activate
 ```
-$ ros2 launch radar_conti_ars408 radar.launch.py
+$./build/ars408_radar/ars408_radar_composition
+$ ros2 lifecycle set /ars408_radar configure
+$ ros2 lifecycle set /ars408_radar activate
 ```
 Launch Rviz
 ```
