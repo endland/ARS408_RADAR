@@ -40,3 +40,5 @@ add -> marker array (/radar/marker_array)
 add -> Axes (radar_link)
 
 Global Options -> Fixed Frame = radar_link
+
+![Alt text](/rviz2.png)
